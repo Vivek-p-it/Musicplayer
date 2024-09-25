@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ccc;
+    background-image: url(bg.jpg);
+  }
+  
+  #player {
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    float: left;
+  }
+  
+  #audio-player {
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  img {
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+  }
+  img:hover{
+    background-color: aqua;
+    rotate: 10deg;
+  }
+  .left-section{
+    float: left;
+  }
+
+  a{
+    float: left;
+    border: 10px solid red;
+  }
